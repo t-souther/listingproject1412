@@ -117,3 +117,68 @@ The game is complete.
 Your final score was 15
 Thanks For Playing!
 ## Command Prompt Output
+Microsoft Windows [Version 10.0.10240]
+(c) 2015 Microsoft Corporation. All rights reserved.
+
+C:\Users\Travis>cd desktop
+
+C:\Users\Travis\Desktop>cd computer_science
+
+C:\Users\Travis\Desktop\computer_science>cd listingproject1412
+
+C:\Users\Travis\Desktop\computer_science\listingproject1412>git add .
+
+C:\Users\Travis\Desktop\computer_science\listingproject1412>git commit -m "adding funfun"
+[master dcfa6a6] adding funfun
+ 5 files changed, 98 insertions(+), 6 deletions(-)
+ create mode 100644 bin/listingproject1412/funfun.class
+ rewrite bin/listingproject1412/listingproject1412.class (78%)
+ delete mode 160000 listingproject1412
+ create mode 100644 src/listingproject1412/funfun.java
+
+C:\Users\Travis\Desktop\computer_science\listingproject1412>git push
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': t-souther
+Password for 'https://t-souther@github.com':
+Counting objects: 10, done.
+Delta compression using up to 2 threads.
+Compressing objects: 100% (8/8), done.
+Writing objects: 100% (10/10), 3.56 KiB | 0 bytes/s, done.
+Total 10 (delta 2), reused 0 (delta 0)
+To https://github.com/t-souther/listingproject1412.git
+   4c1a0f2..dcfa6a6  master -> master
+
+C:\Users\Travis\Desktop\computer_science\listingproject1412>git pull
+remote: Counting objects: 3, done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+From https://github.com/t-souther/listingproject1412
+   dcfa6a6..d174e64  master     -> origin/master
+Updating dcfa6a6..d174e64
+Fast-forward
+ README.md | 257 +++++++++++++++++++++++++++-----------------------------------
+ 1 file changed, 111 insertions(+), 146 deletions(-)
+
+## Summary
+In this assignment I used for loops to rewrite the the addition game
